@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>AI 快捷鍵鍵盤</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .keyboard {
+      display: grid;
+      grid-template-columns: repeat(5, 100px);
+      gap: 10px;
+      padding: 20px;
+      background-color: #ffe6f0;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .key {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      border: 2px solid #f5c2d4;
+      transition: all 0.2s ease-in-out;
+    }
+    .key:hover {
+      background-color: #ffb6c1;
+      border-color: #ff69b4;
+      color: white;
+    }
+    .key.gold { background-color: #ff69b4; color: white; }
+    .key.dark { background-color: #cc3366; color: white; }
+  </style>
+</head>
+<body>
+  <div class="keyboard">
+    <a href="https://chat.openai.com" class="key gold">AI 模式</a>
+    <a href="https://www.keymate.ai" class="key gold">關鍵字模式</a>
+    <a href="https://snipboard.io" class="key dark">截圖</a>
+    <a href="https://www.craiyon.com" class="key dark">繪圖</a>
+    <a href="https://www.tablesgenerator.com/text_tables" class="key dark">表格</a>
+    <a href="https://chat.openai.com" class="key dark">寫作</a>
+    <a href="https://gamma.app" class="key dark">PPT</a>
+    <a href="https://chat.openai.com" class="key gold">AI 問答</a>
+    <a href="https://whimsical.com/mind-maps" class="key">心智圖</a>
+    <a href="https://www.notion.so" class="key">心得體會</a>
+    <a href="https://chat.openai.com" class="key">工作總結</a>
+    <a href="https://www.onlineocr.net/" class="key">圖片取字</a>
+    <a href="https://chat.openai.com" class="key">閱讀理解</a>
+    <a href="https://www.grammarly.com" class="key">文章校對</a>
+    <a href="https://chat.openai.com" class="key">短文寫作</a>
+    <a href="https://claude.ai" class="key">長文寫作</a>
+    <a href="https://www.deepl.com/translator" class="key">文章翻譯</a>
+    <a href="https://papago.naver.com/" class="key">即時翻譯</a>
+    <a href="https://dictation.io/speech" class="key" style="grid-column: span 2">語音打字</a>
+  </div>
+</body>
+</html>
